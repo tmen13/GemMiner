@@ -19,10 +19,27 @@
     <Filter Include="Source Files\Blocks">
       <UniqueIdentifier>{9128fe80-5229-4d8f-928f-87c1af2204e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{57b94229-188a-4977-9704-f5e78d0d8d6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Server.cpp">
+    <ClCompile Include="GemServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Networking\Server.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking\TcpClient.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Networking\Server.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking\TcpClient.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

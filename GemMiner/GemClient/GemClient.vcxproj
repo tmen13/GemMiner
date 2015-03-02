@@ -64,6 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GemClient.cpp" />
+    <ClCompile Include="Networking\Client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Networking\Client.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
